@@ -91,11 +91,13 @@ function totalsrow() {
   footertotal.textContent = 'totals';
   lastRow.appendChild(footertotal);
   for (let i = 0; i < 15; i++) {
+ class08-forms
     let cell = document.createElement('th');
     cell.textContent = hoursTotal[i];
     lastRow.appendChild(cell);
   }
   table.appendChild(lastRow);
+
 }
 
 
@@ -118,6 +120,8 @@ form.addEventListener('submit',function(event){
 )
 totalsrow();
 console.log(table.lastElementChild);
+
+
 
 
 
