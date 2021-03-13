@@ -1,19 +1,30 @@
+
+body {
+    text-align: center;
+    background-image: url(https://th.bing.com/th/id/R5946f5971cc64126e4c829935126ad04?rik=DjklibZS86SYiA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2017%2f03%2f27%2f198689-texture-abstract-blue.jpg&ehk=3XqKUTshrrEPc%2fyAQCwdQXSZuhdALTjKvnxMtj9oXVQ%3d&risl=&pid=ImgRaw);
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 2px rgb(56, 53, 53), 0 0 25px rgb(98, 98, 151), 0 0 5px rgb(100, 100, 121);
+}
 header {
     text-align: center;
      color: white;
-     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+     /* text-shadow: 1px 1px 2px black, 0 0 25px rgb(186, 186, 223), 0 0 5px rgb(58, 58, 83); */
      /* font-family: "Lucida Console", "Courier New", monospace; */
      border : color rgb(222, 214, 224);
+    
    
 }
 img {
     width: 250px;
     height: 150px;
+    border-radius: 50%;
+    position:static;
 }
 h1 {
     
         text-align: center;
-        color: rgb(223, 171, 184);
+        /* color: rgb(236, 230, 232); */
         border-style: dotted;color: rgb(165, 163, 197);
        
         
@@ -22,11 +33,7 @@ main {
     border-style: double;color: rgb(228, 206, 224);
     margin-left: 20px;
 }
-body {
-    text-align: center;
-    background-image: linear-gradient(rgb(101, 123, 170) , rgb(24, 26, 51));
-    font-family: "Lucida Console", "Courier New", monospace;
-}
+
 p {
     text-align: center;
 }
