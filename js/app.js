@@ -123,10 +123,13 @@ console.log(table.lastElementChild);
 
 
 
+ class09-styling
+=======
 
 
 
 
+ class06-object
 // function makeFooterRow() {
 //   tableHeader.textContent = 'Hourly Totals for All Locations';
 //   tableRow.appendChild(tableHeader);
