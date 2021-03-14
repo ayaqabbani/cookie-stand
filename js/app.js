@@ -91,7 +91,6 @@ function totalsrow() {
   footertotal.textContent = 'totals';
   lastRow.appendChild(footertotal);
   for (let i = 0; i < 15; i++) {
- class08-forms
     let cell = document.createElement('th');
     cell.textContent = hoursTotal[i];
     lastRow.appendChild(cell);
@@ -121,16 +120,6 @@ form.addEventListener('submit',function(event){
 totalsrow();
 console.log(table.lastElementChild);
 
-
-
- class09-styling
-=======
-
-
-
-
- class06-object
-// function makeFooterRow() {
 //   tableHeader.textContent = 'Hourly Totals for All Locations';
 //   tableRow.appendChild(tableHeader);
 //   let totalOfTotals = 0;
