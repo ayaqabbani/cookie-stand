@@ -8,6 +8,11 @@ body {
     font-size: large;
     font-family: fantasy;
 }
+a{
+    margin-left: 30px;
+    color: rgb(8, 8, 8);
+    font-size:x-large;
+}
 table{
     display: inline-table;
     margin-top: 20px;
